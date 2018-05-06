@@ -12,9 +12,9 @@ class App extends React.Component { // eslint-disable-line react/prefer-stateles
     return (
       <main>
         <LaunchDetails
-          launch={launch}
-          launchSite={launchSite}
-          rocket={rocket}
+          // launch={launch}
+          // launchSite={launchSite}
+          // rocket={rocket}
         />
       </main>
     );
