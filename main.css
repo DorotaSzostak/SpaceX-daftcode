@@ -1,0 +1,181 @@
+
+.header {
+  background-color: #000;
+  padding: 50px 0 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .header__logo {
+    max-width: 300px;
+    height: 40px; }
+  .header__arrow {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    color: #ccac5b;
+    font-size: 14px; }
+    .header__arrow--pointer {
+      height: 14px; }
+    .header__arrow--line {
+      width: 40px;
+      height: 12px;
+      border-top: 2px solid #ccac5b;
+      position: relative;
+      top: 6px;
+      left: -1px; }
+    .header__arrow--text {
+      color: #ccac5b;
+      letter-spacing: 9px;
+      margin-left: 20px; }
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0 2%;
+  color: #0f1112;
+  font-size: 14px;
+  letter-spacing: 1px; }
+  .main__left {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%; }
+    .main__left--date {
+      color: #a7a9ac;
+      letter-spacing: 14px; }
+    .main__left--title {
+      font-size: 36px;
+      font-weight: normal; }
+    .main__left--patch {
+      margin-top: 30px; }
+  .main__right {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%; }
+  .main__details--title {
+    color: #ccac5b;
+    border-bottom: 2px solid #ccac5b;
+    padding: 10px 0;
+    letter-spacing: 9px; }
+  .main .column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .main .column__list {
+      border-left: 2px dotted #a7a9ac;
+      padding: 0 20px;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+      .main .column__list--item {
+        padding: 10px 0;
+        color: #a7a9ac; }
+
+.banner {
+  height: 530px;
+  text-align: center;
+  background-image: url(rocket.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%; }
+  .banner__title {
+    position: relative;
+    top: 370px;
+    font-size: 24px;
+    letter-spacing: 18px;
+    color: #ffffff;
+    font-weight: lighter; }
+  .banner__button {
+    color: #ffffff;
+    background-color: transparent;
+    padding: 5px 20px;
+    border: 1px solid #ffffff;
+    font-size: 14px;
+    border-radius: 20px;
+    margin: 0 10px;
+    position: relative;
+    top: 400px; }
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #22272b;
+  font-size: 14px;
+  font-weight: lighter;
+  padding: 20px; }
+  .footer__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    color: #666666; }
+    .footer__nav--item {
+      margin-right: 10px; }
+    .footer__nav--link {
+      color: #a7a9ac;
+      letter-spacing: 1px; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+html {
+  font-size: 10px; }
+
+body {
+  margin: 0; }
+
+main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 1rem;
+  background: #fff; }
+
+
+/*# sourceMappingURL=main.css.map*/
