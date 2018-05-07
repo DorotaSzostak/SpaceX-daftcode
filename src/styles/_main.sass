@@ -1,0 +1,40 @@
+.main
+    display: flex
+    flex-direction: row
+    padding: 0 2%
+    color: $almost-black
+    font-size: 14px
+    letter-spacing: 1px
+
+    &__left
+      flex-basis: 50%
+      &--date
+        color: $cool-gray
+        letter-spacing: 14px
+      &--title
+        font-size: 36px
+        font-weight: normal
+      &--patch
+        margin-top: 30px
+
+    &__right
+      flex-basis: 50%
+
+    &__details
+      &--title
+        color: $description-color
+        border-bottom: 2px solid $description-color
+        padding: 10px 0
+        letter-spacing: 9px
+
+    .column
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      &__list
+        border-left: 2px dotted $cool-gray
+        padding: 0 20px
+        flex-basis: 50%
+        &--item
+          padding: 10px 0
+          color: $cool-gray

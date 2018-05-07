@@ -10,29 +10,33 @@ class MainRight extends React.Component {
           </div>
           <div className="main__details">
           <h4 className="main__details--title">ROCKET</h4>
-          <ul className="details__list">
-          <li className="details__list--item">NAME:</li>
-          <li className="details__list--item">COMPANY:</li>
-          <li className="details__list--item">HEIGHT:</li>
-          <li className="details__list--item">DIAMETER:</li>
-          <li className="details__list--item">MASS:</li>
+          <div className="column">
+          <ul className="column__list">
+          <li className="column__list--item">NAME:</li>
+          <li className="column__list--item">COMPANY:</li>
+          <li className="column__list--item">HEIGHT:</li>
+          <li className="column__list--item">DIAMETER:</li>
+          <li className="column__list--item">MASS:</li>
           </ul>
-          <ul className="details__list">
-          <li className="details__list--item">FIRST FLIGHT:</li>
-          <li className="details__list--item">COUNTRY:</li>
-          <li className="details__list--item">SUCCESS RATE:</li>
-          <li className="details__list--item">COST PER LAUNCH:</li>
+          <ul className="column__list">
+          <li className="column__list--item">FIRST FLIGHT:</li>
+          <li className="column__list--item">COUNTRY:</li>
+          <li className="column__list--item">SUCCESS RATE:</li>
+          <li className="column__list--item">COST PER LAUNCH:</li>
           </ul>
+          </div>
           <p className="main__details--text">Deserunt adipisci te qui. Te soleat omnium fuisset vim. Clita aperiam his in. Libris pertinax nec et, diam veritus ponderum ut eam, et meliore interesset sit. Pri nibh errem an, ea eos conceptam dissentiet, everti nostrud sea et.</p>
           </div>
           <div className="main__details">
           <h4 className="main__details--title">LAUNCH PAD</h4>
-          <ul className="details__list">
-          <li className="details__list--item">NAME:</li>
+          <div className="column">
+          <ul className="column__list">
+          <li className="column__list--item">NAME:</li>
           </ul>
-          <ul className="details__list">
-          <li className="details__list--item">LOCATION:</li>
+          <ul className="column__list">
+          <li className="column__list--item">LOCATION:</li>
           </ul>
+          </div>
           <p className="main__details--text">Deserunt adipisci te qui. Te soleat omnium fuisset vim. Clita aperiam his in. Libris pertinax nec et, diam veritus ponderum ut eam, et meliore interesset sit.</p>
           </div>
       </div>

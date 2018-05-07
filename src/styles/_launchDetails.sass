@@ -1,66 +1,17 @@
+@import "~styles/variables"  // '~' informs sass-loader that is not relative path
+@import "~styles/header"
+@import "~styles/main"
+@import "~styles/banner"
+@import "~styles/footer"
+
+
 body
-    max-width: 1680px
+    margin: 0
+    padding: 0
+    font-family: 'Open Sans', sans-serif
 
-.header
-    background-color: #000
-    padding: 50px 0 20px 0
-    display: flex
-    flex-direction: row
+li
+  list-style: none
 
-
-.navigation
-  flex-basis: 38%
-    padding-left: 2%
-    align-self: center
-
-
-
-.header__logo
-    max-width: 250px
-    height: 40px
-
-.main
-    display: flex
-    flex-direction: row
-    padding: 0 2%
-
-.main__left
-    flex-basis: 50%
-
-
-.main__right
-    flex-basis: 50%
-
-
-.banner
-    width: 100%
-    height: 480px
-
-
-.banner__image
-    width: 100%
-
-
-.banner__title
-    position: relative
-    bottom: 170px
-    text-align: center
-
-.banner__button
-    position: relative
-    bottom: 80px
-    text-align: center
-
-.footer
-    width: 100%
-    display: flex
-    flex-direction: row
-    justify-content: space-between
-    background-color: #000
-
-
-.footer__nav
-    display: flex
-    flex-direction: row
-    justify-content: flex-start
-    flex-basis: 50%
+a
+  text-decoration: none

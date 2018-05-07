@@ -5,7 +5,7 @@ class Footer extends React.Component {
     return (
       <footer className="footer">
       <ul className="footer__nav">
-      <li className="footer__nav--item">FOLLOW SPACEX</li>
+      <li className="footer__nav--item">FOLLOW SPACEX |</li>
       <li className="footer__nav--item"><a href="#" className="footer__nav--link">TWITTER</a></li>
       <li className="footer__nav--item"><a href="#" className="footer__nav--link">YOUTUBE</a></li>
       <li className="footer__nav--item"><a href="#" className="footer__nav--link">FLICKR</a></li>
