@@ -1,0 +1,82 @@
+.launchItem
+    &__wrapper
+        background-color: $almost-black
+        color: $main-text-color
+        position: relative
+        padding-top: 40px
+        padding-bottom: 40px
+        &:before
+            content: ''
+            position: absolute
+            top: 0
+            left: 50%
+            height: 90%
+            border-width: 1px
+            border-style: dashed
+            margin-left: -2px
+    &__block
+        background-color: $almost-black
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        margin-bottom: 40px
+        flex-wrap: nowrap
+        align-items: flex-start
+        justify-content: space-between
+    &__dot
+        position: relative
+        top: 45px
+        left: 49.7%
+        height: 5px
+        width: 5px
+        background-color:#d6d6d6
+        border-radius: 50%
+        border: 1px solid #e8e8e8
+    &__content
+        width: calc(100% - 80px)
+        margin-left: 80px
+        @media only screen and (min-width: 768px)
+            width: 46%
+            width: calc(50% - 70px)
+            margin-left: 0
+    &__content
+        margin-bottom: 10px
+        padding: 20px
+    &__separator
+        display: inline-block
+        border-top: 1px solid $arrow-line
+        height: 2px
+        width: 100%
+        position: relative
+        top: 9px
+        bottom: 13px
+        &__arrow
+            position: absolute
+            left: 100%
+            top: -5px
+            -moz-transform: scaleX(-1)
+            -o-transform: scaleX(-1)
+            -webkit-transform: scaleX(-1)
+            transform: scaleX(-1)
+
+    &__rocket
+        font-size: 12px
+        letter-spacing: 3px
+        text-transform: uppercase
+        word-spacing: 3px
+        padding-top: 20px
+        &__feature
+            color: $cool-gray
+
+.launchItem__block:nth-child(odd) .launchItem__content
+    order: -1
+
+.launchItem__block:nth-child(even) .launchItem__content
+    order: 1
+
+.launchItem__block:nth-child(even) .launchItem__separator__arrow
+    left: 0
+    transform: rotateX(180deg)
+
+.launchItem__block:nth-child(odd) .launchItem__dot
+    left: -49.8%
